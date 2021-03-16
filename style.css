@@ -443,6 +443,7 @@ contact us section css  */
 .form_image{
     width: 100%;
     object-fit: cover;
+    height: 100%;
 }
 .form_main{
     flex: 1;
@@ -546,6 +547,13 @@ input:focus,
 }
 
 @media only screen and (max-width: 600px) {
+    main{
+        background-image: url("/images/404\ MOBILE\ -\ BACKGROUND\ IMAGE\ \(FULL\).jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     .nav_list{
         width: 90%;
         font-size: .7rem;
@@ -680,7 +688,7 @@ input:focus,
     .sponsors_apple{
         /* position: absolute; */
         top: -1.5rem;
-        left: 2.5rem;
+        left: 2.3rem;
         height: 4rem;
         width: 4rem;
     }    
@@ -810,7 +818,7 @@ input:focus,
     .sponsors_apple{
         /* position: absolute; */
         top: -1rem;
-        left: 1.9rem;
+        left: 1.7rem;
         height: 3rem;
         width: 3rem;
     } 
@@ -835,7 +843,7 @@ input:focus,
     .sponsors_apple{
         /* position: absolute; */
         top: -.8rem;
-        left: .8rem;
+        left: .765em;
         height: 2.5rem;
         width: 2.5rem;
     } 
