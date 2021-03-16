@@ -24,7 +24,6 @@ main{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding: 0 2rem 0; */
 }
 
 section{
@@ -42,13 +41,8 @@ section{
     justify-content: space-between;
     font-size: .8rem;
     font-weight: 300;
-    /* background-color: antiquewhite; */
     padding: 3.5rem 1.2rem 2.5rem 0;
     margin: auto 7rem 0 auto;
-}
-
-.nav_item{
-
 }
 
 .nav_link{
@@ -469,7 +463,7 @@ contact us section css  */
 .form_data label{
     width: 50%;
 }
-.form_data input{
+.form_main input{
     background-color: rgb(243, 240, 240);
     border: none;
     border-bottom: 1px solid rgb(185, 182, 182);
@@ -481,23 +475,24 @@ contact us section css  */
     border-right: 1px solid rgb(185, 182, 182);
 }
 
-.form_data input::placeholder{
+.form_data input::placeholder,
+.text_area::placeholder{
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-size: .7rem;
 }
-.text_area{
-    border: none;
-    height: 50%;
-    width: 100%;
-    padding: 1.5rem 0 0 0;
+ #text_area{
+    /* border: none; */
+    /* height: 50%; */
+    /* width: 100%; */
+    padding: 1.1rem 0 15.1rem 1rem;
 }
-#text_area{
+/* #text_area{
     background-color: rgb(243, 240, 240);
     border-bottom: 1px solid rgb(185, 182, 182);
     font-family: 'Poppins', sans-serif;
     
-}
+}  */
 
 input:focus,
 .text_area:focus{
@@ -769,19 +764,17 @@ input:focus,
         border-right: 1px solid rgb(185, 182, 182);
     }
      */
-    .form_data input::placeholder{
+    .form_main input::placeholder{
         /* color: #000;
         font-family: 'Poppins', sans-serif; */
         font-size: .5rem;
     }
-    .text_area{
-        /* border: none; */
-        height: 35%;
-        /* width: 100%; */
+    #text_area{
+        padding: .7rem 0 3.1rem .5rem;
     }
   
     .form_btn{
-        margin: .2rem 1rem 0 auto;
+        margin: .4rem 1rem 0 auto;
         padding: .4rem 1.5rem;
         font-size: .5rem;
     }
@@ -804,3 +797,46 @@ input:focus,
     
     
   }
+
+  @media only screen and (max-width: 400px) {
+
+    .contact_header,
+    .event_header,
+    .shop_header,
+    .faq_header,
+    .about_text-header{
+        font-size: 1.6rem;
+    }
+    .sponsors_apple{
+        /* position: absolute; */
+        top: -1rem;
+        left: 1.9rem;
+        height: 3rem;
+        width: 3rem;
+    } 
+
+      .text_area{
+          height: auto;
+      }
+
+      .form_btn{
+          margin: .5rem 1rem .4rem auto;
+      }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .nav_list{
+        /* width: 90%; */
+        font-size: .5rem;
+        /* font-weight: 300;
+        padding: 3rem 0 2rem 0;
+        margin: 0 auto; */
+    }
+    .sponsors_apple{
+        /* position: absolute; */
+        top: -.8rem;
+        left: .8rem;
+        height: 2.5rem;
+        width: 2.5rem;
+    } 
+}
