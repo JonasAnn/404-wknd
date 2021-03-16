@@ -490,10 +490,13 @@ contact us section css  */
     border: none;
     height: 50%;
     width: 100%;
+    padding: 1.5rem 0 0 0;
 }
 #text_area{
     background-color: rgb(243, 240, 240);
     border-bottom: 1px solid rgb(185, 182, 182);
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 input:focus,
@@ -776,48 +779,25 @@ input:focus,
         height: 35%;
         /* width: 100%; */
     }
-    /* #text_area{
-        background-color: rgb(243, 240, 240);
-        border-bottom: 1px solid rgb(185, 182, 182);
-    }
-    
-    input:focus,
-    .text_area:focus{
-        outline: none;
-    } */
-    
+  
     .form_btn{
         margin: .2rem 1rem 0 auto;
         padding: .4rem 1.5rem;
         font-size: .5rem;
     }
 
-/*         
-    .footer{
-        background-color: #238006;
-        color: #fff;
-        display: flex;
-        padding: 1.5rem 0;
-    } */
-
     .socials{
         width: 40%;
         padding: 0 0 0 .8rem;
         font-size: .6rem;
-        /* background-color: aquamarine; */
     }
 
     .copyright{
         width: 60%;
-        /* justify-self: center; */
         padding: 0 .8rem 0 0;
-        /* text-align: center; */
-        /* background-color: blanchedalmond; */
     }
 
     .copyright_text{
-        /* font-family: shapiro;
-        text-align: center; */
         font-size: .5rem;
     }
 
