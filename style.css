@@ -389,14 +389,16 @@ section{
     justify-content: space-between;
     width: 70%;
     margin: 4rem auto 0;
+    /* background-color: brown; */
 }
 
 .sponsors_logo-box{
-
+   
 }
 
 .sponsors_logo-image{
-
+    width: 100%;
+    object-fit: contain;
 }
 
 /* 
@@ -429,21 +431,21 @@ contact us section css  */
     width: 60%;
     height: 30rem;
     border-radius: 10px;
-    margin: 2rem auto;
     overflow: hidden;
     display: flex;
+    /* position: relative; */
    
 }
 .form_image-box{
     width: 40%;
-    position: relative;
+    /* position: relative; */
     /* background-color: bisque; */
 }
-.contact_apple{
+/* .contact_apple{
     position: absolute;
     bottom: -1rem;
     left: -2rem;
-}
+} */
 .form_image{
     width: 100%;
     object-fit: cover;
@@ -545,3 +547,280 @@ input:focus,
     font-size: .8rem;
 }
 
+@media only screen and (max-width: 600px) {
+    .nav_list{
+        width: 90%;
+        font-size: .7rem;
+        font-weight: 300;
+        padding: 3rem 0 2rem 0;
+        margin: 0 auto;
+    }
+    
+    .active_link{
+        padding: .6rem 1rem;
+    }
+
+    .head{
+        flex-direction: column;
+    }
+    .head_timer{
+        display: none;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about_text-header{
+        font-size: 2rem;
+    }
+
+    .about_text-box{
+        width: 80%;
+    }
+    
+    .about_logo-box{
+        width: 90%;
+    }
+    
+    .event_header{
+        font-size: 2rem;
+        padding: 0 0 1rem;
+    }
+
+    .event_header-text{
+        display: none;
+    }
+    .event_details-date{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .event_details-day{
+        font-size: 1rem;
+    }
+    
+    .event_details-month{
+        font-size: .4rem;
+        margin: -.4rem 0 0;
+    }
+
+    .event_details-location{
+        width: 25%;
+    }
+    .event_details-flyer{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .theme_header{
+        font-size: .35rem;
+    }
+    .location_header{
+        font-size: .4rem;
+    }
+    .theme_text,
+    .location_text{
+        font-size: .4rem;
+        width: 100%;
+        padding: .2rem 0 0;
+    }
+
+    .details_btn-span{
+        /* background-color: aquamarine;
+        display: block; */
+        width: .4rem;
+        height: .4rem;
+        /* padding: 0 .2rem 0 0; */
+    
+    }
+    
+    .details_btn{
+        padding: .2rem .6rem;
+        font-size: .2rem;
+    }
+    
+
+
+
+
+
+
+    /* media query for faq section */
+    .faq_header{
+        font-size: 2rem;;
+    }
+
+    /* media query for shop section */
+    .shop_header{
+        font-size: 2rem;
+    }
+    .shop_product{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    .shop_product-tees{
+        width: 100%;
+    }
+
+    /* styling for event sponsors */
+    .sponsors_header{
+        font-size: 1rem;
+        /* background-color: bisque; */
+    }
+
+    .sponsors_header-text{
+        width: 50%;
+        /* text-align:center; */
+        margin: .5rem auto 1rem;
+
+        font-size: .5rem;
+    }
+
+    .sponsors_apple{
+        /* position: absolute; */
+        top: -1.5rem;
+        left: 2.5rem;
+        height: 4rem;
+        width: 4rem;
+    }    
+    
+    /* .sponsors_logo-image{
+        width: 100%;
+        object-fit: contain;
+    } */
+    
+     .sponsors_logo{
+        margin: 1rem auto 0;
+        width: 90%;
+    }
+    
+    .sponsors_logo-box{
+        margin: 0 .9rem;
+    }
+    
+    .contact_header{
+        font-size: 2rem;
+    }
+    
+    .contact_header-text{
+        font-size: .6rem;
+    }
+
+    .form_box{
+        /* background-color: red; */
+        /* background-color: rgb(243, 240, 240);
+        margin: 2rem auto; */
+        width: 80%;
+        height: auto;
+        /* border-radius: 10px;
+        margin: 2rem auto;
+        overflow: hidden;
+        display: flex; */
+        /* position: relative; */
+       
+    }
+    .form_image-box{
+        width: 40%;
+        /* position: relative; */
+        /* background-color: bisque; */
+    }
+    /* .contact_apple{
+        position: absolute;
+        bottom: -1rem;
+        left: -2rem;
+    } */
+    .form_image{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    /* .form_main{
+        flex: 1;
+    } */
+    .form_header{
+        padding: .7rem 0 .7rem .5rem;
+        font-size: .7rem;
+    }
+    
+    .form_data{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    
+    .form_data label{
+        width: 100%;
+    }
+    .form_data input{
+        /* background-color: rgb(243, 240, 240);
+        border: none;
+        border-bottom: 1px solid rgb(185, 182, 182); */
+        padding: .7rem 0 .7rem .5rem;
+        /* width: 100%; */
+    }
+    
+    /* #fullname{
+        border-right: 1px solid rgb(185, 182, 182);
+    }
+     */
+    .form_data input::placeholder{
+        /* color: #000;
+        font-family: 'Poppins', sans-serif; */
+        font-size: .5rem;
+    }
+    .text_area{
+        /* border: none; */
+        height: 35%;
+        /* width: 100%; */
+    }
+    /* #text_area{
+        background-color: rgb(243, 240, 240);
+        border-bottom: 1px solid rgb(185, 182, 182);
+    }
+    
+    input:focus,
+    .text_area:focus{
+        outline: none;
+    } */
+    
+    .form_btn{
+        margin: .2rem 1rem 0 auto;
+        padding: .4rem 1.5rem;
+        font-size: .5rem;
+    }
+
+/*         
+    .footer{
+        background-color: #238006;
+        color: #fff;
+        display: flex;
+        padding: 1.5rem 0;
+    } */
+
+    .socials{
+        width: 40%;
+        padding: 0 0 0 .8rem;
+        font-size: .6rem;
+        /* background-color: aquamarine; */
+    }
+
+    .copyright{
+        width: 60%;
+        /* justify-self: center; */
+        padding: 0 .8rem 0 0;
+        /* text-align: center; */
+        /* background-color: blanchedalmond; */
+    }
+
+    .copyright_text{
+        /* font-family: shapiro;
+        text-align: center; */
+        font-size: .5rem;
+    }
+
+    
+    
+  }
