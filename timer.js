@@ -6,7 +6,7 @@ function getTimeRemaining(endtime){
     const minutes = Math.floor( (total/1000/60) % 60 );
     const hours = Math.floor( (total/(1000*60*60)) % 24 );
     const days = Math.floor( total/(1000*60*60*24) );
-    console.log(seconds);
+    // console.log(seconds);
     return {
       total,
       days,
@@ -22,15 +22,16 @@ function initializeClock(endtime) {
     const minute = document.getElementById("minutes");
     const hour = document.getElementById("hours");
     const day = document.getElementById("days");
+    const second = document.getElementById("seconds");
 
 
     const timeinterval = setInterval(() => {
       const t = getTimeRemaining(endtime);
 
         minute.innerHTML = t.minutes;
-        hour.innerHTML = t.seconds;
+        hour.innerHTML = t.hours;
         day.innerHTML = t.days;
-        second.innerHTML = t.hours;
+        second.innerHTML = t.seconds;
 
       if (t.total <= 0) {
         clearInterval(timeinterval);
