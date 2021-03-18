@@ -570,7 +570,32 @@ input:focus,
         flex-direction: column;
     }
     .head_timer{
-        display: none;
+        /* display: none; */
+    }
+    .head_timer{
+        /* display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px; */
+        padding: 1.5rem 1rem;
+        margin: 1.5rem 0 ;
+        /* background-color: rgba(0, 0, 0, 0.616); */
+    }
+    
+    .head_timer-days,
+    .head_timer-sec,
+    .head_timer-hours,
+    .head_timer-minute{
+        /* font-family: shapiro; */
+        font-size: .8rem;
+        /* text-align: center; */
+    }
+    
+    
+    .head_timer  p {
+        font-size: 3.5rem;
+        margin: 0 0 -.8rem;
     }
 
     .about{
