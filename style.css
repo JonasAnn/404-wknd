@@ -201,6 +201,34 @@ section{
     font-size: .8rem;
 }
 
+.event_days{
+    padding: .5rem 3.5rem;
+    margin: 2rem 0;
+}
+.event_list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.event_item{
+
+}
+.event_link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .5rem 1.7rem;
+    background-color: #ee4746;
+    border: 1px solid #fff;
+}
+.event_details-header{
+    font-size: 1rem;
+    padding: .5rem 2rem;
+    background-color: #fff;
+    color: #ee4746;
+    margin: 0 0 1rem;
+    text-transform: uppercase;
+}
 .event_details-box{
     width: 80%;
     margin: 0 auto;
@@ -222,8 +250,8 @@ section{
 .event_details-date{
     background-color: #ee4746;
     color: #fff;
-    width: 7rem;
-    height: 7rem;
+    width: 3rem;
+    height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,18 +260,28 @@ section{
 
 .event_details-day{
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.1rem;
 }
 
 .event_details-month{
     font-weight: 300;
-    margin: -.6rem 0 0;
+    margin: -.4rem 0 0;
+    font-size: .6rem;
 }
 
 .event_details-flyer{
-    width: 7rem;
-    height: 7rem;
+    width: 14rem;
+    height: 14rem;
     background-color: cornflowerblue;
+}
+
+.event_details-utility{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
 }
 
 /* .flyer{
@@ -254,7 +292,8 @@ section{
 .event_details-theme{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    margin: 0 0 2rem;
+    /* width: 30%; */
     /* background-color: forestgreen; */
 }
 
@@ -264,7 +303,7 @@ section{
 }
 .theme_text{
     font-weight: 300;
-    width: 80%;
+    width: 90%;
     font-size: .8rem;
     padding: .5rem 0 0;
 }
@@ -616,32 +655,60 @@ input:focus,
     
     .event_header{
         font-size: 2rem;
-        padding: 0 0 1rem;
+        padding: 0;
     }
 
     .event_header-text{
         display: none;
     }
+    .event_details-box{
+        width: 90%;
+    }
+    .event_list{
+        /* display: flex; */
+        justify-content: start;
+        /* list-style: none; */
+        flex-wrap: wrap;
+    }
+    .event_days {
+        padding: .5rem 1rem;
+        margin: .8rem 0;
+    }
+    .event_item{
+        margin: .5rem 0.2rem;
+    }
+    .event_link{
+        /* color: #fff;
+        text-decoration: none; */
+        font-size: .8rem;
+        padding: .4rem 1rem;
+        /* background-color: #ee4746;
+        border: 1px solid #fff; */
+    }
     .event_details-date{
-        height: 2.5rem;
-        width: 2.5rem;
+        height: 1.5rem;
+        width: 1.5rem;
     }
 
     .event_details-day{
-        font-size: 1rem;
+        font-size: .7rem;
     }
     
     .event_details-month{
-        font-size: .4rem;
-        margin: -.4rem 0 0;
+        font-size: .3rem;
+        margin: -.2rem 0 0;
     }
 
     .event_details-location{
-        width: 25%;
+        width: 100%;
     }
     .event_details-flyer{
-        height: 2.5rem;
-        width: 2.5rem;
+        height: 6rem;
+        width: 6rem;
+    }
+    .event_details-utility{
+        width: 40%;
+        /* height: auto; */
     }
     .theme_header{
         font-size: .35rem;
@@ -655,19 +722,22 @@ input:focus,
         width: 100%;
         padding: .2rem 0 0;
     }
+    .event_details-theme{
+        margin:  0 0 .5rem;
+    }
 
     .details_btn-span{
         /* background-color: aquamarine;
         display: block; */
-        width: .4rem;
-        height: .4rem;
+        width: .5rem;
+        height: .5rem;
         /* padding: 0 .2rem 0 0; */
     
     }
     
     .details_btn{
-        padding: .2rem .6rem;
-        font-size: .2rem;
+        padding: .2rem .4rem;
+        font-size: .4rem;
     }
     
 
@@ -872,4 +942,38 @@ input:focus,
         height: 2.5rem;
         width: 2.5rem;
     } 
+    .event_details-date{
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .event_details-day{
+        font-size: .5rem;
+    }
+    
+    .event_details-month{
+        font-size: .2rem;
+        margin: -.1rem 0 0;
+    }
+    .event_details-flyer{
+        height: 5rem;
+        width: 5rem;
+    }
+    .event_details-utility{
+        /* width: 40%; */
+        /* height: auto; */
+    }
+    .details_btn-span{
+        /* background-color: aquamarine;
+        display: block; */
+        width: .4rem;
+        height: .4rem;
+        /* padding: 0 .2rem 0 0; */
+    
+    }
+    
+    .details_btn{
+        padding: .2rem .35rem;
+        font-size: .3rem;
+    }
 }
