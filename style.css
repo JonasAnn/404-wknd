@@ -203,7 +203,8 @@ section{
 
 .event_days{
     padding: .5rem 3.5rem;
-    margin: 2rem 0;
+    margin: 2rem auto;
+    width: 80%;
 }
 .event_list{
     display: flex;
@@ -217,7 +218,7 @@ section{
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
-    padding: .5rem 1.7rem;
+    padding: .5rem 2.7rem;
     background-color: #ee4746;
     border: 1px solid #fff;
 }
@@ -672,7 +673,8 @@ input:focus,
     }
     .event_days {
         padding: .5rem 1rem;
-        margin: .8rem 0;
+        margin: .8rem auto;
+        width: 90%;
     }
     .event_item{
         margin: .5rem 0.2rem;
