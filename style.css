@@ -666,9 +666,9 @@ input:focus,
     }
     .event_list{
         /* display: flex; */
-        justify-content: start;
+        /* justify-content: start; */
         /* list-style: none; */
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
     .event_days {
         padding: .5rem 1rem;
@@ -680,8 +680,8 @@ input:focus,
     .event_link{
         /* color: #fff;
         text-decoration: none; */
-        font-size: .8rem;
-        padding: .4rem 1rem;
+        font-size: .7rem;
+        padding: .4rem .8rem;
         /* background-color: #ee4746;
         border: 1px solid #fff; */
     }
