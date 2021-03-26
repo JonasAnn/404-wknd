@@ -30,10 +30,6 @@ section{
     margin: 4rem 0;
 }
 
-.navbar{
-
-}
-
 .nav_list{
     display: flex;
     list-style: none;
@@ -61,20 +57,12 @@ section{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* height: 60vh; */
-}
-
-.head_logo{
-    /* background-color: blueviolet; */
 }
 
 .logo,
 .icon{
     width: 100%;
     object-fit: contain;
-}
-.head_text{
-    /* background-color: yellow; */
 }
 
 .head_list{
@@ -88,8 +76,6 @@ section{
 }
 
 .head_btn-span{
-    /* background-color: aquamarine;
-    display: block; */
     width: 1.5rem;
     height: 1.5rem;
 
@@ -146,7 +132,6 @@ section{
 
 .about_text-head{
     position: relative;
-    /* background-color: turquoise; */
 }
 
 .green_lines{
@@ -164,10 +149,6 @@ section{
     position: relative;
 }
 
-.about_text{
-    /* background-color: tomato; */
-}
-
 .about_text-p{
     padding: 1.5rem 0 0;
 }
@@ -181,16 +162,16 @@ section{
     object-fit: contain;
 }
 
-.event{
-    /* padding: 3rem 0 0; */
-}
-
 .event_header,
 .faq_header,
 .shop_header{
     text-align: center;
     font-family: shapiro;
     font-size: 2.5rem;
+}
+
+.shop_header{
+    margin: 0 0 2rem 0;
 }
 
 .event_header-text{
@@ -211,9 +192,7 @@ section{
     justify-content: space-between;
     list-style: none;
 }
-.event_item{
 
-}
 .event_link{
     color: #fff;
     text-decoration: none;
@@ -243,7 +222,6 @@ section{
 
 .event_details{
     display: flex;
-    /* background-color: grey; */
     justify-content: space-between;
     align-items: center;
 }
@@ -279,23 +257,20 @@ section{
 .event_details-utility{
     display: flex;
     flex-direction: column;
-    /* background-color: aquamarine; */
     justify-content: space-between;
-    width: 50%;
+    width: 40%;
     height: 100%;
 }
 
-/* .flyer{
+.flyer{
     width: 100%;
     object-fit: cover;
-} */
+}
 
 .event_details-theme{
     display: flex;
     flex-direction: column;
     margin: 0 0 2rem;
-    /* width: 30%; */
-    /* background-color: forestgreen; */
 }
 
 .theme_header{
@@ -307,10 +282,6 @@ section{
     width: 90%;
     font-size: .8rem;
     padding: .5rem 0 0;
-}
-
-.event_details-location{
-    /* background-color: gold; */
 }
 
 .location_header{
@@ -325,14 +296,7 @@ section{
     padding: .5rem 0 0;
 }
 
-.event_details-btn{
-    /* background-color: teal; */
-    /* padding: .5rem 1rem; */
-}
-
 .details_btn-span{
-    /* background-color: aquamarine;
-    display: block; */
     width: 1.5rem;
     height: 1.5rem;
     padding: 0 .3rem 0 0;
@@ -346,11 +310,8 @@ section{
     color: #fff;
     display: flex;
     align-items: center;
-    /* margin: 1.5rem auto 0; */
     font-size: .9rem;
     font-weight: 400;
-    /* width: 100%; */
-    /* justify-content: space-between; */
 }
 
 .faq_details{
@@ -359,12 +320,9 @@ section{
 
 .shop{
     text-align: center;
-    /* width: 80%; */
-    /* background-color: thistle; */
 }
 
 .shop_product{
-    /* background-color: thistle; */
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -386,7 +344,6 @@ section{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    /* margin: 0 auto; */
 }
 
 .sponsors{
@@ -395,7 +352,6 @@ section{
 }
 
 .sponsors_head{
-    /* background-color: thistle; */
     position: relative;
 }
 
@@ -423,11 +379,6 @@ section{
     justify-content: space-between;
     width: 70%;
     margin: 4rem auto 0;
-    /* background-color: brown; */
-}
-
-.sponsors_logo-box{
-   
 }
 
 .sponsors_logo-image{
@@ -435,8 +386,7 @@ section{
     object-fit: contain;
 }
 
-/* 
-contact us section css  */
+/*contact us section css  */
 
 .contact{
     
@@ -448,7 +398,6 @@ contact us section css  */
 }
 
 .contact_header-text{
-    /* margin: .5rem auto 1rem; */
     font-weight: 300;
     font-size: .8rem;
     text-align: center;
@@ -459,7 +408,6 @@ contact us section css  */
 }
 
 .form_box{
-    /* background-color: red; */
     background-color: rgb(243, 240, 240);
     margin: 2rem auto;
     width: 60%;
@@ -467,19 +415,11 @@ contact us section css  */
     border-radius: 10px;
     overflow: hidden;
     display: flex;
-    /* position: relative; */
-   
 }
 .form_image-box{
     width: 40%;
-    /* position: relative; */
-    /* background-color: bisque; */
 }
-/* .contact_apple{
-    position: absolute;
-    bottom: -1rem;
-    left: -2rem;
-} */
+
 .form_image{
     width: 100%;
     object-fit: cover;
@@ -492,7 +432,6 @@ contact us section css  */
     background-color: #fff;
     color: #000;
     font-weight: 600;
-    /* padding: 2rem 0; */
     box-shadow: 2px 2px 3px #ccc;
     padding: 2rem 0 2rem 1rem;
 }
@@ -523,17 +462,8 @@ contact us section css  */
     font-size: .7rem;
 }
  #text_area{
-    /* border: none; */
-    /* height: 50%; */
-    /* width: 100%; */
     padding: 1.1rem 0 15.1rem 1rem;
 }
-/* #text_area{
-    background-color: rgb(243, 240, 240);
-    border-bottom: 1px solid rgb(185, 182, 182);
-    font-family: 'Poppins', sans-serif;
-    
-}  */
 
 input:focus,
 .text_area:focus{
@@ -551,8 +481,6 @@ input:focus,
     display: block;
 }
 
-
-
 .footer{
     background-color: #238006;
     color: #fff;
@@ -563,7 +491,6 @@ input:focus,
 .socials{
     width: 25%;
     padding: 0 0 0 4.5rem;
-    /* background-color: aquamarine; */
 }
 .socials_text{
     font-family: shapiro;
@@ -575,15 +502,97 @@ input:focus,
 }
 .copyright{
     width: 50%;
-    /* justify-self: center; */
     text-align: center;
-    /* background-color: blanchedalmond; */
 }
 
 .copyright_text{
     font-family: shapiro;
     text-align: center;
     font-size: .8rem;
+}
+
+.special_span{
+    display: block;
+}
+
+.event_details-btn p{
+    font-size: .8rem;
+    background-color: #238006;
+    padding: .2rem .5rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .head_timer{
+        padding: 1.5rem 1.2rem;
+        margin: 0 30px 0 20px;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .head_timer-days,
+    .head_timer-hours,
+    .head_timer-minute,
+    .head_timer-sec{
+        font-size: .8rem;
+    }
+
+    .head_timer p{
+        font-size: 4rem;
+    }
+
+    .about_text-box{
+        width: 45%;
+    }
+
+    .about_text-header{
+        font-size: 2rem;
+    }
+    
+    .about_text-p{
+        padding: .8rem 0 0;
+    }
+    
+    .event_header-text{
+        width: 70%;
+    }
+
+    .event_days{
+        padding: 0;
+        width: 90%;
+    }
+
+    .event_details-box{
+        width: 90%;
+    }
+
+    .event_details-flyer{
+        height: 10rem;
+        width: 10rem;
+    }
+    .event_details-utility{
+        width: 40%;
+    }
+    .theme_text{
+        width: 90%;
+    }
+    .location_text{
+        width: 90%;
+    }
+
+    .sponsors_header-text{
+        width: 80%;
+    }
+
+    .sponsors_apple{
+        height: 6rem;
+        width: 6rem;
+        top: -2rem;
+        left: 2rem;
+    }
+    .sponsors_logo{
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -609,27 +618,17 @@ input:focus,
     .head{
         flex-direction: column;
     }
+ 
     .head_timer{
-        /* display: none; */
-    }
-    .head_timer{
-        /* display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 50px;
-        grid-row-gap: 50px; */
         padding: 1.5rem 1rem;
         margin: 1.5rem 0 ;
-        /* background-color: rgba(0, 0, 0, 0.616); */
     }
     
     .head_timer-days,
     .head_timer-sec,
     .head_timer-hours,
     .head_timer-minute{
-        /* font-family: shapiro; */
         font-size: .8rem;
-        /* text-align: center; */
     }
     
     
@@ -665,12 +664,7 @@ input:focus,
     .event_details-box{
         width: 90%;
     }
-    .event_list{
-        /* display: flex; */
-        /* justify-content: start; */
-        /* list-style: none; */
-        /* flex-wrap: wrap; */
-    }
+
     .event_days {
         padding: .5rem 1rem;
         margin: .8rem auto;
@@ -680,12 +674,8 @@ input:focus,
         margin: .5rem 0.2rem;
     }
     .event_link{
-        /* color: #fff;
-        text-decoration: none; */
         font-size: .7rem;
         padding: .4rem .8rem;
-        /* background-color: #ee4746;
-        border: 1px solid #fff; */
     }
     .event_details-date{
         height: 1.5rem;
@@ -710,7 +700,6 @@ input:focus,
     }
     .event_details-utility{
         width: 40%;
-        /* height: auto; */
     }
     .theme_header{
         font-size: .35rem;
@@ -729,11 +718,8 @@ input:focus,
     }
 
     .details_btn-span{
-        /* background-color: aquamarine;
-        display: block; */
         width: .5rem;
         height: .5rem;
-        /* padding: 0 .2rem 0 0; */
     
     }
     
@@ -742,12 +728,6 @@ input:focus,
         font-size: .4rem;
     }
     
-
-
-
-
-
-
     /* media query for faq section */
     .faq_header{
         font-size: 2rem;;
@@ -771,29 +751,20 @@ input:focus,
     /* styling for event sponsors */
     .sponsors_header{
         font-size: 1rem;
-        /* background-color: bisque; */
     }
 
     .sponsors_header-text{
         width: 50%;
-        /* text-align:center; */
         margin: .5rem auto 1rem;
-
         font-size: .5rem;
     }
 
     .sponsors_apple{
-        /* position: absolute; */
         top: -1.5rem;
         left: 2.3rem;
         height: 4rem;
         width: 4rem;
     }    
-    
-    /* .sponsors_logo-image{
-        width: 100%;
-        object-fit: contain;
-    } */
     
      .sponsors_logo{
         margin: 1rem auto 0;
@@ -813,44 +784,26 @@ input:focus,
     }
 
     .form_box{
-        /* background-color: red; */
-        /* background-color: rgb(243, 240, 240);
-        margin: 2rem auto; */
         width: 80%;
         height: auto;
-        /* border-radius: 10px;
-        margin: 2rem auto;
-        overflow: hidden;
-        display: flex; */
-        /* position: relative; */
-       
     }
+
     .form_image-box{
         width: 40%;
-        /* position: relative; */
-        /* background-color: bisque; */
     }
-    /* .contact_apple{
-        position: absolute;
-        bottom: -1rem;
-        left: -2rem;
-    } */
+
     .form_image{
         width: 100%;
         object-fit: cover;
         height: 100%;
     }
 
-    /* .form_main{
-        flex: 1;
-    } */
     .form_header{
         padding: .7rem 0 .7rem .5rem;
         font-size: .7rem;
     }
     
     .form_data{
-        /* display: flex; */
         flex-direction: column;
     }
     
@@ -858,22 +811,13 @@ input:focus,
         width: 100%;
     }
     .form_data input{
-        /* background-color: rgb(243, 240, 240);
-        border: none;
-        border-bottom: 1px solid rgb(185, 182, 182); */
         padding: .7rem 0 .7rem .5rem;
-        /* width: 100%; */
     }
-    
-    /* #fullname{
-        border-right: 1px solid rgb(185, 182, 182);
-    }
-     */
+
     .form_main input::placeholder{
-        /* color: #000;
-        font-family: 'Poppins', sans-serif; */
         font-size: .5rem;
     }
+
     #text_area{
         padding: .7rem 0 3.1rem .5rem;
     }
@@ -899,7 +843,9 @@ input:focus,
         font-size: .5rem;
     }
 
-    
+    .event_details-btn p{
+        font-size: .4rem;
+    }
     
   }
 
@@ -913,7 +859,6 @@ input:focus,
         font-size: 1.6rem;
     }
     .sponsors_apple{
-        /* position: absolute; */
         top: -1rem;
         left: 1.7rem;
         height: 3rem;
@@ -931,14 +876,9 @@ input:focus,
 
   @media only screen and (max-width: 320px) {
     .nav_list{
-        /* width: 90%; */
         font-size: .5rem;
-        /* font-weight: 300;
-        padding: 3rem 0 2rem 0;
-        margin: 0 auto; */
     }
     .sponsors_apple{
-        /* position: absolute; */
         top: -.8rem;
         left: .765em;
         height: 2.5rem;
@@ -961,21 +901,20 @@ input:focus,
         height: 5rem;
         width: 5rem;
     }
-    .event_details-utility{
-        /* width: 40%; */
-        /* height: auto; */
-    }
+
     .details_btn-span{
-        /* background-color: aquamarine;
-        display: block; */
         width: .4rem;
         height: .4rem;
-        /* padding: 0 .2rem 0 0; */
     
     }
     
     .details_btn{
         padding: .2rem .35rem;
         font-size: .3rem;
+    }
+
+    .event_details-btn p{
+        font-size: .35rem;
+        padding: .1rem .25rem;
     }
 }
