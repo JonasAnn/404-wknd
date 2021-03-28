@@ -485,6 +485,8 @@ input:focus,
     background-color: #238006;
     color: #fff;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 1.5rem 0;
 }
 
@@ -494,14 +496,18 @@ input:focus,
 }
 .socials_text{
     font-family: shapiro;
+    display: flex;
+    align-items: center;
 }
 
 .socials_link{
     text-decoration: none;
     color: #fff;
+    font-size: 2rem;
+    padding: 0 .5rem 0 0;
 }
 .copyright{
-    width: 50%;
+    width: 60%;
     text-align: center;
 }
 
@@ -872,6 +878,13 @@ input:focus,
       .form_btn{
           margin: .5rem 1rem .4rem auto;
       }
+      .footer{
+        flex-direction: column;
+    }
+    .footer div{
+        width: 100%;
+        justify-content: center;
+    }
   }
 
   @media only screen and (max-width: 320px) {
@@ -917,4 +930,5 @@ input:focus,
         font-size: .35rem;
         padding: .1rem .25rem;
     }
+    
 }
