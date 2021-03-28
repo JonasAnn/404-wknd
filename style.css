@@ -251,7 +251,7 @@ section{
 .event_details-flyer{
     width: 14rem;
     height: 14rem;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
 }
 
 .event_details-utility{
